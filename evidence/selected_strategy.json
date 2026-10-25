@@ -1,0 +1,26 @@
+{
+  "heavy_user": 10500740270951698446,
+  "light_user": 12453026253397466416,
+  "parameters": {
+    "history_limit": 50,
+    "metric": "confidence",
+    "min_pair_support": 5,
+    "recency_decay": 0.95,
+    "window_days": 1
+  },
+  "selection_rule": "Highest validation MAP@5; exact ties prefer popularity, content, association, then hybrid for simplicity.",
+  "strategy": "association",
+  "two_user_selection_rule": "Among validation-eligible users with positive training history, choose maximum and minimum training watched-airing counts; ties use the smallest numeric user_id.",
+  "validation_metrics": {
+    "all_requested_users": 1260,
+    "cold_map_at_5": 0.16428571428571428,
+    "cold_start_users": 14,
+    "eligible_users": 1238,
+    "hit_rate_at_5": 0.8974151857835219,
+    "map_at_5": 0.3299970831089571,
+    "mean_recall_at_5": 0.4048869143780291,
+    "warm_map_at_5": 0.33189247458242555,
+    "warm_users": 1224,
+    "zero_filled_all_user_map_at_5": 0.32423522927689596
+  }
+}

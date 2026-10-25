@@ -1,0 +1,52 @@
+{
+  "environment": {
+    "cpu_count": 12,
+    "dependencies": "Python standard library only",
+    "platform": "macOS-15.7.7-arm64-arm-64bit",
+    "processor": "arm",
+    "python": "3.12.14",
+    "python_implementation": "CPython",
+    "seed": 20261025
+  },
+  "k": 5,
+  "method_parameters": {
+    "association": {
+      "history_limit": 50,
+      "metric": "confidence",
+      "min_pair_support": 5,
+      "recency_decay": 0.95,
+      "window_days": 1
+    },
+    "content": {
+      "feature_set": "basic",
+      "history_weighting": "log_count"
+    },
+    "hybrid": {
+      "content_weight": 0.25,
+      "rank_constant": 60
+    },
+    "popularity": {}
+  },
+  "peak_memory_mib": 401.8125,
+  "seed": 20261025,
+  "selected_parameters": {
+    "history_limit": 50,
+    "metric": "confidence",
+    "min_pair_support": 5,
+    "recency_decay": 0.95,
+    "window_days": 1
+  },
+  "selected_strategy": "association",
+  "test_period_schedule_use": "candidate pool and static item metadata only",
+  "test_period_viewing_used": false,
+  "timings_seconds": {
+    "final_association_fit_and_rank": 1.3025497499620542,
+    "final_content_fit_and_rank": 3.140681917022448,
+    "final_hybrid_rank": 0.0866200000164099,
+    "join_views_to_schedule": 14.684537916036788,
+    "load_test_schedule": 2.7522636250359938,
+    "load_train_validation_schedules": 4.685365749988705,
+    "total_pipeline": 47.194370415993035
+  },
+  "watch_threshold": 0.8
+}

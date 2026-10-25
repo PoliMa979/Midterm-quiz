@@ -1,0 +1,17 @@
+method,variant,map_at_5,hit_rate_at_5,mean_recall_at_5,runtime_seconds,parameters
+popularity,interaction_count_then_target_schedule_frequency,0.2961265930712619,0.8852988691437803,0.3786887452880991,0.0028144579846411943,{}
+content,basic_binary,0.0926373182552504,0.42407108239095315,0.13220247711362415,2.777189249987714,"{""feature_set"": ""basic"", ""history_weighting"": ""binary""}"
+content,basic_log_count,0.17645148985819423,0.6462035541195477,0.22506731287022078,2.802836207963992,"{""feature_set"": ""basic"", ""history_weighting"": ""log_count""}"
+content,full_binary,0.060736851552683546,0.3683360258481422,0.10838718362950997,3.5505537500139326,"{""feature_set"": ""full"", ""history_weighting"": ""binary""}"
+content,full_log_count,0.16945476575121163,0.7310177705977383,0.24606892837910607,3.5160610410384834,"{""feature_set"": ""full"", ""history_weighting"": ""log_count""}"
+association,w1_s2_confidence,0.3285904684975767,0.8966074313408724,0.4033117932148627,1.047966166981496,"{""history_limit"": 50, ""metric"": ""confidence"", ""min_pair_support"": 2, ""recency_decay"": 0.95, ""window_days"": 1}"
+association,w1_s2_confidence_lift,0.2459475408364746,0.8117932148626817,0.31610123855681205,1.0519569159368984,"{""history_limit"": 50, ""metric"": ""confidence_lift"", ""min_pair_support"": 2, ""recency_decay"": 0.95, ""window_days"": 1}"
+association,w1_s5_confidence,0.3299970831089571,0.8974151857835219,0.4048869143780291,0.6321114160236903,"{""history_limit"": 50, ""metric"": ""confidence"", ""min_pair_support"": 5, ""recency_decay"": 0.95, ""window_days"": 1}"
+association,w1_s5_confidence_lift,0.24994457907018489,0.821486268174475,0.3212708669897685,0.6286776239867322,"{""history_limit"": 50, ""metric"": ""confidence_lift"", ""min_pair_support"": 5, ""recency_decay"": 0.95, ""window_days"": 1}"
+association,w3_s2_confidence,0.3247751750134626,0.8917609046849758,0.4044695745826602,1.4901678750175051,"{""history_limit"": 50, ""metric"": ""confidence"", ""min_pair_support"": 2, ""recency_decay"": 0.95, ""window_days"": 3}"
+association,w3_s2_confidence_lift,0.3079969933584635,0.8739903069466882,0.37606354334948844,1.5056404580245726,"{""history_limit"": 50, ""metric"": ""confidence_lift"", ""min_pair_support"": 2, ""recency_decay"": 0.95, ""window_days"": 3}"
+association,w3_s5_confidence,0.32491855142703285,0.8941841680129241,0.4060446957458266,0.8256292080041021,"{""history_limit"": 50, ""metric"": ""confidence"", ""min_pair_support"": 5, ""recency_decay"": 0.95, ""window_days"": 3}"
+association,w3_s5_confidence_lift,0.31108957099264045,0.875605815831987,0.37828486806677436,0.8124028340680525,"{""history_limit"": 50, ""metric"": ""confidence_lift"", ""min_pair_support"": 5, ""recency_decay"": 0.95, ""window_days"": 3}"
+hybrid,rrf_content_0.25,0.31838449111470113,0.8885298869143781,0.40122509423801833,0.09184599999571219,"{""content_weight"": 0.25, ""rank_constant"": 60}"
+hybrid,rrf_content_0.50,0.2835689283791061,0.8004846526655897,0.3551830910070006,0.09245879197260365,"{""content_weight"": 0.5, ""rank_constant"": 60}"
+hybrid,rrf_content_0.75,0.2398972356847963,0.7294022617124394,0.30449649973074855,0.08904487499967217,"{""content_weight"": 0.75, ""rank_constant"": 60}"

@@ -1,0 +1,76 @@
+{
+  "ap_at_5": 0.27999999999999997,
+  "code_cross_check": 0.27999999999999997,
+  "denominator": 5,
+  "method": "association",
+  "manual_verification": {
+    "calculation": "(1/1 + 2/5) / min(5, 5) = (1.0 + 0.4) / 5 = 0.28",
+    "confirmed_hit_ranks": [
+      1,
+      5
+    ],
+    "manual_ap_at_5": 0.28,
+    "matches_code_result": true,
+    "status": "confirmed",
+    "verification_date": "2026-10-25",
+    "verified_by": "student"
+  },
+  "numerator": 1.4,
+  "predictions": [
+    2400480,
+    240081,
+    12001682,
+    2400467,
+    20088
+  ],
+  "relevant_items": [
+    20088,
+    2400480,
+    6700482,
+    12002856,
+    12002896
+  ],
+  "steps": [
+    {
+      "ap_contribution": 1.0,
+      "cumulative_hits": 1,
+      "is_relevant": true,
+      "precision_at_rank": 1.0,
+      "rank": 1,
+      "tv_show_id": 2400480
+    },
+    {
+      "ap_contribution": 0.0,
+      "cumulative_hits": 1,
+      "is_relevant": false,
+      "precision_at_rank": 0.5,
+      "rank": 2,
+      "tv_show_id": 240081
+    },
+    {
+      "ap_contribution": 0.0,
+      "cumulative_hits": 1,
+      "is_relevant": false,
+      "precision_at_rank": 0.3333333333333333,
+      "rank": 3,
+      "tv_show_id": 12001682
+    },
+    {
+      "ap_contribution": 0.0,
+      "cumulative_hits": 1,
+      "is_relevant": false,
+      "precision_at_rank": 0.25,
+      "rank": 4,
+      "tv_show_id": 2400467
+    },
+    {
+      "ap_contribution": 0.4,
+      "cumulative_hits": 2,
+      "is_relevant": true,
+      "precision_at_rank": 0.4,
+      "rank": 5,
+      "tv_show_id": 20088
+    }
+  ],
+  "user_id": 36938861791891792
+}

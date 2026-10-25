@@ -1,0 +1,38 @@
+{
+  "association": {
+    "bytes": 74810,
+    "error_count": 0,
+    "errors": "",
+    "expected_rows": 1260,
+    "rows": 1260,
+    "sha256": "7f955ed10a352fc6a85a257c7a0d66e99fd5fce87a73d5f35e412951db14b0f2",
+    "valid": true
+  },
+  "content": {
+    "bytes": 76816,
+    "error_count": 0,
+    "errors": "",
+    "expected_rows": 1260,
+    "rows": 1260,
+    "sha256": "49667cfff4487bc032878be71fa7b8acb898f45c6e9bdb28a29c8a3e04edad48",
+    "valid": true
+  },
+  "hybrid": {
+    "bytes": 75092,
+    "error_count": 0,
+    "errors": "",
+    "expected_rows": 1260,
+    "rows": 1260,
+    "sha256": "8fe4068a33feeb9c5a5bca00af2a7f81d38a3a0e27f00290edc930f5597c8feb",
+    "valid": true
+  },
+  "popularity": {
+    "bytes": 73629,
+    "error_count": 0,
+    "errors": "",
+    "expected_rows": 1260,
+    "rows": 1260,
+    "sha256": "7405d2bdc9a19fedd14803b317021998f813b98e6081d3621e6424f33368a64a",
+    "valid": true
+  }
+}

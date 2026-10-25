@@ -1,0 +1,16 @@
+[
+  {
+    "basket_count": 125162,
+    "build_runtime_seconds": 0.23876470798859373,
+    "distinct_items": 2501,
+    "distinct_pairs": 65989,
+    "window_days": 1
+  },
+  {
+    "basket_count": 70166,
+    "build_runtime_seconds": 0.16421312501188368,
+    "distinct_items": 2501,
+    "distinct_pairs": 128422,
+    "window_days": 3
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "code_ap_at_5": 0.27999999999999997,
+  "confirmed_hit_ranks": [
+    1,
+    5
+  ],
+  "manual_ap_at_5": 0.28,
+  "manual_calculation": "(1/1 + 2/5) / min(5, 5) = (1.0 + 0.4) / 5 = 0.28",
+  "matches_code_result": true,
+  "method": "association",
+  "status": "confirmed",
+  "user_id": "36938861791891792",
+  "verification_date": "2026-10-25",
+  "verified_by": "student"
+}

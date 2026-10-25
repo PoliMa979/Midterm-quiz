@@ -1,0 +1,80 @@
+{
+  "candidate_pool_policy": "All nonzero tv_show_id values airing in the target schedule period.",
+  "cold_start_policy": "Training interaction popularity restricted to the target candidate pool; target schedule frequency then item id break ties.",
+  "fraction_at_or_above_0_8": 0.2029641067120883,
+  "input_sha256": {
+    "dataset11-30.csv": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b",
+    "export_arh_11-20-final.csv": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c",
+    "export_arh_21-30-final.csv": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4",
+    "export_arh_31-42-final.csv": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088",
+    "submission.csv": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+  },
+  "join_rule": "same channel and positive interval overlap; union overlap per user-airing",
+  "matched_user_airings": 3014129,
+  "overlap_fraction_quantiles": {
+    "0.25": 0.043,
+    "0.5": 0.195,
+    "0.75": 0.656,
+    "0.8": 0.809,
+    "0.9": 1.0,
+    "0.95": 1.0
+  },
+  "percentage_at_or_above_0_8": 20.2964,
+  "periods": {
+    "test": {
+      "candidate_items": 6636,
+      "invalid_duration_rows": 0,
+      "labelled_schedule_rows": 144774,
+      "zero_id_schedule_rows": 1150604
+    },
+    "train": {
+      "candidate_items": 5847,
+      "invalid_duration_rows": 0,
+      "labelled_schedule_rows": 115613,
+      "zero_id_schedule_rows": 958622
+    },
+    "validation": {
+      "candidate_items": 6363,
+      "invalid_duration_rows": 0,
+      "labelled_schedule_rows": 121505,
+      "zero_id_schedule_rows": 952889
+    }
+  },
+  "repeats_policy": "Previously watched programs remain eligible for every method.",
+  "schedule_duration_seconds_quantiles": {
+    "test": {
+      "0.25": 1200.0,
+      "0.5": 2700.0,
+      "0.75": 5400.0,
+      "0.9": 7200.0,
+      "0.99": 13500.0
+    },
+    "train": {
+      "0.25": 1200.0,
+      "0.5": 2700.0,
+      "0.75": 5400.0,
+      "0.9": 7200.0,
+      "0.99": 13800.0
+    },
+    "validation": {
+      "0.25": 1200.0,
+      "0.5": 2700.0,
+      "0.75": 5400.0,
+      "0.9": 7200.0,
+      "0.99": 13500.0
+    }
+  },
+  "skipped_view_rows": 0,
+  "template_users": 1260,
+  "threshold_basis": "Our 0.80 threshold was fixed before validation and was not tuned. It aligns with the Kaggle Data page's description of target construction; this is not presented as a universal viewing rule defined by Kaggle.",
+  "threshold_kaggle_quote": "Only TV shows with high screen time (>= 0.8) were taken into account.",
+  "threshold_source": "https://www.kaggle.com/competitions/sweettv-tv-program-recommender/data",
+  "train_users_with_interactions": 4738,
+  "tv_show_id_zero_policy": "Dropped before the join because zero denotes unlabelled airtime, not an item.",
+  "validation_users_with_targets": 4643,
+  "view_rows": 5821987,
+  "view_sort_violations": 0,
+  "watch_rule": "Our operational decision: a program is classified as watched when the union of the user's viewing intervals covers at least 80% of its scheduled duration on the same channel.",
+  "watch_threshold": 0.8,
+  "watched_user_airings_at_0_8": 611760
+}
